@@ -4,21 +4,21 @@ cask "venn" do
 
   on_macos do
     on_arm do
-      sha256 "aad07b44439cd187dc677b858ec2ba67d6df63349f7e85b86b62637f9ea5e665"
+      sha256 "b9280973be6d964735540063b03ae1516c741f988ab0e19e3ded382952abecb3"
       url "https://github.com/KonMam/venn/releases/download/v#{version}/venn_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f605fd48abb460d569cc29a17630bfbd779013f3fb16a64c8cc182123530a6c2"
+      sha256 "4cd0deb8f041c779d5180e1690a88636cfde449ac45fe78943e47141c4bbf6fd"
       url "https://github.com/KonMam/venn/releases/download/v#{version}/venn_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a8643bd165153c7f52598bd592a8bf58ccf2e92d2b392f436d742d1a50d34766"
+      sha256 "1b070fdcd2321edc7d437c2be0d4acbe98bdf1cfe6bbdb48d8d099a22b2933db"
       url "https://github.com/KonMam/venn/releases/download/v#{version}/venn_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5a14a53d19ded352cd63a8f3ab84901dd72da689e7f4f1673b88aea7a67302b0"
+      sha256 "d5900d876d42340dff906660ebcaa54674da13a8fb25faadcf4f50621224fe92"
       url "https://github.com/KonMam/venn/releases/download/v#{version}/venn_#{version}_linux_amd64.tar.gz"
     end
   end
